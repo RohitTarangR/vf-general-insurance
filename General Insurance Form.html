@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Insurance</title>
+    <link rel="stylesheet" href="insurance.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get"></form>
+        <h1 class="main_heading">GENERAL INSURANCE</h1>
+        <P class="follow_this">Required fields are followed by *</P>
+
+        <br>
+        <img class="image_insure" src="page_1.jpg" alt="This is Insurance related picture." width="50%">
+        <h3>Your Name/Company Name: *</h3>
+        <input type="text" placeholder="Enter Your Name/Company Name" required>
+        <h3>Address</h3>
+    
+        <p>Street Address: </p>
+        <input type="text" name="Address" placeholder="Enter Your Address Properly" id="Address">
+        
+        <p>Street Address Line 2: </p>
+        <input type="text" name="Address1" placeholder="Line 2 Address">
+        
+        <p>Town:</p> 
+        <input type="text" name="town" placeholder="Enter Your Town Name" id="town">
+       
+        <p>Country:</p>
+        <input type="text" name="Country" placeholder="Enter Your Country Name" id="Country">
+        
+        <p>Pincode:</p>
+
+        <input type="number" name="Pincode" placeholder="Enter your Pincode" id="pincode">
+
+        <h3>Date of Birth:</h3>
+           <input type="date" name="birth_date" id="birth_date">
+
+           <h3>Are You Registered for VAT..? *</h3>
+           Yes<input type="radio" name="Registered" id="Yes" required>
+           No<input type="radio" name="Registered" id="No" required>
+
+           <h3>Bussiness Type: *</h3>
+           <textarea name="bussiness_type" placeholder="Example...Mechanic,Vehical sales,Recovery,etc..." id="bussiness_type" cols="50" rows="5" required></textarea>
+
+           <h3>Contact Number: *</h3>
+           <input type="number" name="contact_number" placeholder="Enter Your Contact Number" id="ontact_number" required>
+
+           <h3>Email: *</h3>
+           <input type="email" name="email" placeholder="abc@gmail.com" id="email" required>
+
+           <h3>Job: *</h3>
+           Full Time<input type="radio" name=Job" id="Full Time" required>
+           Part Time<input type="radio" name=Job" id="Part Time" required>
+
+           <h3>If Part Time-What's your other source of income: *</h3>
+           <textarea name="words" placeholder="Type Here..." id="words" cols="50" rows="5" required></textarea>
+
+           <h3>Licence Type: *</h3>
+           Full Irish <input type="radio" name="type" id="Full Irish" required>
+           Provisional Irish <input type="radio" name="type" id="Provisional Irish" required>
+           Full Irish <input type="radio" name="type" id="other"required>
+
+           <h3>How many years held..? *</h3>
+           <input type="text" name="years" placeholder="In year" id="years" required>
+        
+           <h3>Bonus Type: *</h3>
+           <select name="bonus_type" id="bonus_type" required>
+           <option value="Private car">Private car</option>
+           <option value="Commercial car">Commercial car</option>
+           <option value="Motor Trade">Motor Trade</option>
+           <option value="Named Vehical">Named Vehical</option>
+           <option value="Experience">Experience</option>
+    </select>
+           <h3>Number of years claims free Experience: *</h3>
+           <select name="Experience" id="Experience" required>
+           <option value="1 YEAR">1 YEARS</option>
+           <option value="2 YEARS">2 YEARS</option>
+           <option value="3 YEARS">3 YEARS</option>
+           <option value="4 YEARS">4 YEARS</option>
+           <option value="5 YEARS">5 YEARS</option>
+           </select>
+           <h3>Did you ever years claims free experience: *</h3>
+           <select name="Experience" id="experience" required>
+            <option value="1 YEAR">1 YEAR</option>
+            <option value="2 YEARS">2 YEARS</option>
+            <option value="3 YEARS">3 YEARS</option>
+            <option value="4 YEARS">4 YEARS</option>
+            <option value="5 YEARS">5 YEARS</option>
+           </select>
+
+           <h3>Did you ever hold previous motor trade insurance..? *</h3>
+           <select name="option" id="option" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+           </select>
+
+           <h3>Max Gross Vehical Weight: *</h3>
+           <select name="weight" id="weight" required>
+            <option value="">5 tonne</option>
+            <option value="">10 tonne</option>
+            <option value="">15 tonne or above</option>
+           </select>
+
+           <h3>Own or Dealing in modified,High performance or classic Vehical: *</h3>
+           Yes<input type="radio" name="option" id="Yes" required>
+           No<input type="radio" name="option" id="No" required>
+ 
+           <h3>Own any recovery Vehical: *</h3>
+           Yes<input type="radio" name="Recovery" id="Yes" required>
+           No<input type="radio" name="Recovery" id="No" required>
+
+           <h3>Are you a qualified Mechanic: *</h3>
+           Yes<input type="radio" name="qualified" id="Yes" required>
+           No<input type="radio" name="qualified" id="No" required>
+           N/A<input type="radio" name="qualified" id="N/A" required>
+
+           <h3>Ever held a PSV licence: *</h3>
+           Yes<input type="radio" name="Licence" id="Yes" required>
+           No<input type="radio" name="Licence" id="No" required>
+
+           <h3>Cover: *</h3>
+           <select name="Cover" id="Cover" required>
+            <option value="Comprehensive">Comprehensive</option>
+            <option value="Third party fire &amp; ">Thied party fire</option>
+            <option value="Theft">Theft</option>
+            <option value="Third party only">Third party only</option>
+           </select>
+
+           <h3>Additional Drivers: *</h3>
+           Yes<input type="radio" name="Drivers" id="Yes" required>
+           No<input type="radio" name="Drivers" id="No" required> 
+           
+           <h3>How many Additional drivers do you require..? *</h3>
+           <input type="number" name="number" placeholder="Ex.,10" id="number" required>
+
+           <h3>Additional Driver 1 Name: *</h3>
+           <input type="text" name="Driver_Name" placeholder="Enter Additional driver Name" id="Driver_Name" required>
+
+           <h3>Additional Driver 1 Date of Birth: *</h3>
+           <input type="date" name="birth_date" id="birth_date" required>
+
+           <h3>Additional Drivers 1 Licence Type: *</h3>
+           Full<input type="radio" name="additional_drivers" id="Full" required>
+           Provisional<input type="radio" name="additional_drivers" id="Provisional" required>
+
+
+           <h3>Additional Driver 2 Name: *</h3>
+           <input type="text" name="Driver_Name" placeholder="Enter Additional driver Name" id="Driver_Name" required>
+
+           <h3>Additional Driver 2 Date of Birth: *</h3>
+           <input type="date" name="birth_date" id="birth_date" required>
+
+           <h3>Additional Drivers 2 Licence Type: *</h3>
+           Full<input type="radio" name="additional_drivers2" id="Full" required>
+           Provisional<input type="radio" name="additional_drivers2" id="Provisional" required>
+
+           
+           <h3>Additional Driver 3 Name: *</h3>
+           <input type="text" name="Driver_Name" placeholder="Enter Additional driver Name" id="Driver_Name" required>
+
+           <h3>Additional Driver 3 Date of Birth: *</h3>
+           <input type="date" name="birth_date" id="birth_date" required>
+
+           <h3>Additional Drivers 3 Licence Type: *</h3>
+           Full<input type="radio" name="additional_drivers3" id="Full" required>
+           Provisional<input type="radio" name="additional_drivers3" id="Provisional" required>
+
+
+           <h3>Additional Driver 4 Name: *</h3>
+           <input type="text" name="Driver_Name" placeholder="Enter Additional driver Name" id="Driver_Name" required>
+
+           <h3>Additional Driver 4 Date of Birth: *</h3>
+           <input type="date" name="birth_date" id="birth_date" required>
+
+           <h3>Additional Drivers 4 Licence Type: *</h3>
+           Full<input type="radio" name="additional_drivers4" id="Full" required>
+           Provisional<input type="radio" name="additional_drivers4" id="Provisional" required>
+
+
+           <h3>Additional Driver 5 Name: *</h3>
+           <input type="text" name="Driver_Name" placeholder="Enter Additional driver Name" id="Driver_Name" required>
+
+           <h3>Additional Driver 5 Date of Birth: *</h3>
+           <input type="date" name="birth_date" id="birth_date" required>
+
+           <h3>Additional Drivers 5 Licence Type: *</h3>
+           Full<input type="radio" name="additional_drivers5" id="Full" required>
+           Provisional<input type="radio" name="additional_drivers5" id="Provisional" required>
+
+           <h3>Has any driver ever had any Accidents/Claims/Convictions(Motoring & Non-motoring): *</h3>
+           Yes <input type="radio" name="accidents" id="Yes" required>
+           No <input type="radio" name="accidents" id="No" required>
+          
+           <h3>Number of penalty points: *</h3>
+           <input type="text" name="panalty_points" placeholder="Penalty points" id="panalty_points" required>
+
+           <h3>Present Insure: *</h3>
+           <input type="text" name="insure" placeholder="Write your present insure" id="insure" required>
+
+           <h3>Renewal date: *</h3>
+           <input type="date" name="renewal_date" id="renewal_date" required>
+
+           <h3>List of own Vehicles: *</h3>
+           <textarea name="vehicles_list" placeholder="Type here..." id="vehicles_list" cols="50" rows="5" required></textarea>
+
+           <h3>Any additional Information: *</h3>
+           <textarea name="addi_info" placeholder="Additional Information..." id="addi_info" cols="50" rows="5" required></textarea>
+
+           <h4>How Did You Hear About Us..?</h4>
+           <select name="about" id="about">
+            <option value="Facebook">Facebook</option>
+            <option value="Group">Groupk</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Google Search">Google Search</option>
+            <option value="Refferal">Refferal</option>
+           </select>
+<br>
+<br>
+<br>
+           <input type="Submit" value="Submit">
+
+        <br>
+        <br>
+
+        <input type="Reset" value="Reset">
+
+        
+</body>
+</html>
